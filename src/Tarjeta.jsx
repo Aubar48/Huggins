@@ -9,10 +9,10 @@ const Tarjeta = ({ imagen, nombre, apellido }) => {
           className="w-full h-48 object-cover object-center"
         />
         <div className="p-4">
-          <h2 className=" sm:text-sm lg:text-4x1 font-medium">
+          <h2 className=" sm:text-sm lg:text-4x1 font-medium font-serif">
             {apellido}
           </h2>
-          <h2 className=" sm:text-sm lg:text-4xl font-medium">
+          <h2 className=" sm:text-sm lg:text-4xl font-medium font-serif">
             {nombre}
           </h2>
         </div>

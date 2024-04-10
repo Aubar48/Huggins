@@ -5,8 +5,8 @@ const Tarjeta2 = ({ nombre, description }) => {
     <div className="flex flex-col md:flex-row p-4">
       <div className="md:w-48 md:mr-4 mb-4 md:mb-0"></div>
       <div>
-        <h3 className="text-xl font-semibold">{nombre}</h3>
-        <p className="text-lg text-gray-700">{description}</p>
+        <h3 className="text-xl font-semibold font-serif">{nombre}</h3>
+        <p className="text-lg text-gray-700 font-serif">{description}</p>
       </div>
     </div>
   );

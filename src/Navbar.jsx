@@ -20,20 +20,20 @@ const Navbar = () => {
             {" "}
             {/* Agregado "items-center" para centrar verticalmente */}
             <img className="h-8" src="/images/huggins.png" alt="Logo" />
-            <h1 className="ml-2 text-white text-lg font-semibold">Huggins</h1>
+            <h1 className="ml-2 text-white text-lg font-semibold font-serif">Huggins</h1>
           </div>
           <div className="hidden md:flex">
             {" "}
             {/* Cambiado "md:block" por "md:flex" */}
             <a
               href="/"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
             >
               Inicio
             </a>
             <a
               href="#alianza"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
             >
               Alianza
             </a>
@@ -101,7 +101,7 @@ const App = () => {
               alt="Imagen de bienvenida"
             />
             {/* Agrega el texto encima de la imagen */}
-            <h2 className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:text-3xl lg:text-6xl font-mono font-bold text-slate-100">
+            <h2 className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:text-3xl lg:text-6xl font-serif font-bold text-slate-100">
               Bienvenidos a Huggins
             </h2>
           </div>
@@ -111,7 +111,7 @@ const App = () => {
       </section>
       <section id="alianza" className="">
         <div className="mx-auto">
-          <h2 className="text-3xl font-semibold text-center">Sobre Nosotros</h2>
+          <h2 className="text-3xl font-semibold text-center font-serif">Sobre Nosotros</h2>
           <Tarjeta2 />
           {/* Formulario de contacto u otra información de contacto */}
         </div>
