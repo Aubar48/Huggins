@@ -44,7 +44,7 @@ const App = () => {
           nombre="Gremio Huggins"
           description={`¡Únete a Huggins, donde la camaradería es tan fuerte como el acero y la lealtad es nuestra moneda de cambio! En Nightcrows, somos más que un simple gremio; somos una familia unida por un objetivo común: explorar los oscuros confines del mundo, enfrentar a las criaturas más temibles y forjar nuestro destino juntos.
 
-        Fundado en los albores de la oscuridad, Huggins ha resistido las pruebas del tiempo, emergiendo como un bastión de valentía y determinación en un mundo envuelto en sombras. Nuestros miembros, conocidos como los 'Guardianes de la Noche', son guerreros astutos, magos poderosos y artesanos hábiles que han jurado proteger nuestras tierras y perseguir la gloria eterna.
+        Fundado en los albores de la oscuridad, Huggins ha resistido las pruebas del tiempo, emergiendo como un bastión de valentía y determinación en un mundo envuelto en sombras. Nuestros miembros, conocidos como los 'Guardianes de la Noche', son guerreros astutos, magos poderosos, arqueros hábiles y clerigos virtuosos que han jurado proteger nuestras tierras y perseguir la gloria eterna.
 
         En Huggins, encontrarás un hogar donde cada voz es escuchada, cada habilidad es valorada y cada victoria es celebrada. Nuestros maestros artesanos pueden forjar armas legendarias, nuestros sabios pueden desentrañar los misterios del pasado y nuestros guerreros pueden luchar con ferocidad incomparable. Pero más allá de nuestras habilidades individuales, es nuestra unidad lo que nos distingue: en Huggins, siempre estamos juntos, siempre avanzando, siempre desafiando la noche.
 
