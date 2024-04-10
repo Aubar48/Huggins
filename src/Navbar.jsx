@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Tarjeta from "./Tarjeta";
 import Tarjeta2 from "./Tarjeta2";
-import imagenBienvenidos from "../public/images/NightCrows.jpg";
+import imagenBienvenidos from "../public/images/huggins2.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +12,19 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center py-4"> {/* Añadido "items-center" para centrar verticalmente */}
-          <div className="flex items-center"> {/* Agregado "items-center" para centrar verticalmente */}
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex justify-between items-center py-4">
+          {" "}
+          {/* Añadido "items-center" para centrar verticalmente */}
+          <div className="flex items-center">
+            {" "}
+            {/* Agregado "items-center" para centrar verticalmente */}
             <img className="h-8" src="/images/huggins.png" alt="Logo" />
             <h1 className="ml-2 text-white text-lg font-semibold">Huggins</h1>
           </div>
-          <div className="hidden md:flex"> {/* Cambiado "md:block" por "md:flex" */}
+          <div className="hidden md:flex">
+            {" "}
+            {/* Cambiado "md:block" por "md:flex" */}
             <a
               href="/"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -64,7 +70,7 @@ const Navbar = () => {
             Inicio
           </a>
           <a
-            href="#alianza" 
+            href="#alianza"
             className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
           >
             Alianza
@@ -79,17 +85,23 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <section className="bg-gray-100 py-10">
-        <div className="container mx-auto text-center">
+      <section
+        data-aos="fade-down"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="3000"
+        className="bg-gray-300 py-1"
+      >
+        <div className=" mx-auto text-center">
           {/* Agrega la imagen de fondo */}
-          <div className="relative w-full">
+          <div className="relative">
             <img
-              className="mx-auto w-full h-auto shadow-2xl rounded-lg"
+              className="mx-auto object-cover sm:w-full sm:h-96 lg:w-full lg:h-96 shadow-2xl"
               src={imagenBienvenidos}
               alt="Imagen de bienvenida"
             />
             {/* Agrega el texto encima de la imagen */}
-            <h2 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:text-3xl lg:text-6xl font-semibold text-yellow-500">
+            <h2 className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:text-3xl lg:text-6xl font-mono font-bold text-slate-100">
               Bienvenidos a Huggins
             </h2>
           </div>
@@ -98,7 +110,7 @@ const App = () => {
         </div>
       </section>
       <section id="alianza" className="">
-        <div className="container mx-auto">
+        <div className="mx-auto">
           <h2 className="text-3xl font-semibold text-center">Sobre Nosotros</h2>
           <Tarjeta2 />
           {/* Formulario de contacto u otra información de contacto */}
@@ -109,5 +121,3 @@ const App = () => {
 };
 
 export default App;
-
-

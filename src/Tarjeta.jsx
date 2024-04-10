@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 const Tarjeta = ({ imagen, nombre, apellido }) => {
   return (
-    <div className="w-1/3 p-4 ">
-      <div className=" rounded-lg shadow-md overflow-hidden">
+    <div className="w-1/3 p-4">
+      <div className="w-full sm:w-1/3 md:w-2/3 lg:w-3/4 mx-auto rounded-lg shadow-md overflow-hidden">
         <img
           src={imagen}
           alt={`${nombre} ${apellido}`}
