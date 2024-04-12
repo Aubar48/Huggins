@@ -1,20 +1,21 @@
-import  Navbar  from './Navbar';
-import backgroundMusic from "../public/images/BattleCry.mp3";
+import Home from "./Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Alianza from "./Alianza";
+import NotFound from "./NotFound";
 
 function App() {
-
   return (
     <>
-      <div>
-        <Navbar/>
-        <audio autoPlay loop>
-        <source src={backgroundMusic} type="audio/mpeg" />
-        Tu navegador no soporta la reproducción de música.
-      </audio>
-      </div>
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="/Alianza" element={<Alianza />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
