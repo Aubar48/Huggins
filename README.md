@@ -1,8 +1,33 @@
-# React + Vite
+# React + Vite + tailwindcss + react router dom -> Landing page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<figure><img src="../Huggins/public/images/lcrCrows.png" alt="logo" style="height: 400px;"></figure>
 
-Currently, two official plugins are available:
+## Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the project, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/Aubar48/Huggins
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Huggins
+```
+
+3. Install the project dependencies with the following command:
+
+```bash
+npm install
+```
+
+4. Start the development server by running the following command:
+
+```bash
+"npm run dev"
+```
+
+### The server will stand up on port 5173. You can access the application in your web browser using the following URL: [http://localhost:5173/](http://localhost:5173)
