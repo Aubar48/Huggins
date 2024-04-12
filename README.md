@@ -1,6 +1,6 @@
 # React + Vite + tailwindcss + react router dom -> Landing page 
 
-<figure><img src="../Huggins/public/images/lcrCrows.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./public/images/lcrCrows.png" alt="logo" style="height: 400px;"></figure>
 
 ## Instructions
 
