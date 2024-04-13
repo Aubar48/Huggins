@@ -34,7 +34,7 @@ const App = () => {
 
         En Huggins, encontrarás un hogar donde cada voz es escuchada, cada habilidad es valorada y cada victoria es celebrada. Nuestros maestros artesanos pueden forjar armas legendarias, nuestros sabios pueden desentrañar los misterios del pasado y nuestros guerreros pueden luchar con ferocidad incomparable. Pero más allá de nuestras habilidades individuales, es nuestra unidad lo que nos distingue: en Huggins, siempre estamos juntos, siempre avanzando, siempre desafiando la noche.
 
-        Si estás listo para unirte a una hermandad dedicada a la grandeza y la aventura, busca la marca de Huggins y únete a nosotros en la lucha contra las fuerzas de la oscuridad. Juntos, conquistaremos el amanecer y escribiremos nuestro legado en los anales de la historia de Nightcrows. ¡Únete a Latin Crows y abraza la noche!`}
+        Si estás listo para unirte a una hermandad dedicada a la grandeza y la aventura, busca la marca de Huggins y únete a nosotros en la lucha contra las fuerzas de la oscuridad. Juntos, conquistaremos el amanecer y escribiremos nuestro legado en la historia de Nightcrows. ¡Únete a Latin Crows y abraza la noche!`}
         />
       </div>
       <Footer />
