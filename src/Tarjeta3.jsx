@@ -54,7 +54,7 @@ const Tarjeta3 = ({ imagen, clan, lider, historia }) => {
           imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
           clan="Huginn"
           lider="LCRCaraza"
-          historia="En los bulliciosos mercados de la ciudad, Huginn emerge como un clan de líderes activos y comerciantes, cuyos vínculos se entrelazan en la red de intercambios y alianzas. En su centro, LCRCaraza lidera con diligencia y visión, navegando entre las transacciones con destreza y perspicacia. Entre el trajín de la actividad comercial y la ambición desenfrenada, Huginn y su líder trazan su camino, estableciendo un legado de prosperidad y influencia en los corazones de la ciudad."
+          historia="En los bulliciosos mercados de la ciudad, Huginn emerge como un clan de líderes activos y comerciantes, cuyos vínculos se entrelazan en la red de intercambios y alianzas. En su centro, LCRCaraza lidera con diligencia y visión, navegando entre las transacciones con destreza y perspicacia. Entre el trajín de la actividad comercial y la ambición desenfrenada, Huginn y su líder trazan su camino, estableciendo un legado de prosperidad e influencia en los corazones de la ciudad."
         />
         <Tarjeta3
           imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
