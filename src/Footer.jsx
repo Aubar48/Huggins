@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-gray-800 py-4">
       <div className="container mx-auto px-4 flex justify-center">
         <a
-          href="https://discord.gg/ncQzqkXA"
+          href="https://discord.gg/CNUc8hPp"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white font-semibold hover:underline"
