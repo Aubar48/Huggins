@@ -56,10 +56,10 @@ const App = () => {
       />
       <Tarjeta
         imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
-        clan="Odin"
-        lider="ElBicho"
-        miembros="22/50"
-        clasificacion="52"
+        clan="BlackSail2"
+        lider="Zechi"
+        miembros="49/50"
+        clasificacion="9"
       />
       <Tarjeta
         imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
