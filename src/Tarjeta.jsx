@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Tarjeta = ({ imagen, clan, lider, miembros, clasificacion }) => {
   return (
-    <div className=" w-1/3 p-4">
-      <div className="w-full sm:w-1/3 md:w-2/3 lg:w-3/4 mx-auto rounded-lg shadow-md overflow-hidden">
+    <div className=" max-sm:w-full md:w-2/4 lg:w-2/4 xl:w-1/3 p-2">
+      <div className=" sm:w-full lg:w-3/4 mx-auto rounded-lg shadow-xl shadow-black ">
         <img
           src={imagen}
           alt={`${clan} ${lider}`}
-          className="w-full h-48 object-cover object-center"
+          className="w-full h-48 object-cover object-center "
         />
         <div className="p-4">
           <h2 className="text-center sm:text-sm lg:text-4xl font-medium font-serif">
@@ -38,7 +38,7 @@ const App = () => {
       data-aos-anchor="#example-anchor"
       data-aos-offset="500"
       data-aos-duration="3000"
-      className="flex flex-row flex-wrap justify-center"
+      className="flex flex-row flex-wrap justify-center py-2"
     >
       <Tarjeta
         imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"

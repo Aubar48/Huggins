@@ -17,21 +17,21 @@ const Navbar = () => {
           <div className="flex items-center">
             {" "}
             {/* Agregado "items-center" para centrar verticalmente */}
-            <img className="h-8" src="/images/huggins.png" alt="Logo" />
-            <h1 className="ml-2 text-white text-lg font-semibold font-serif">Huginn</h1>
+            <img className="h-8 rounded-full" src="/images/huggins.png" alt="Logo" />
+            <h1 className=" ml-2 text-white text-lg font-semibold font-serif">Huginn</h1>
           </div>
           <div className="hidden md:flex">
             {" "}
             {/* Cambiado "md:block" por "md:flex" */}
             <a
               href="/"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
+              className=" text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
             >
               Inicio
             </a>
             <a
               href="#alianza"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
+              className=" text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-semibold font-serif"
             >
               Alianza
             </a>

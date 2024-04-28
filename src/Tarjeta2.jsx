@@ -23,7 +23,7 @@ const App = () => {
         data-aos-anchor="#example-anchor"
         data-aos-offset="500"
         data-aos-duration="3000"
-        className="flex flex-col"
+        className="flex flex-col mb-10 "
       >
         <Tarjeta2
           imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"

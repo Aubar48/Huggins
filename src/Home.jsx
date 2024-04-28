@@ -12,13 +12,13 @@ function Home() {
           <source src={backgroundMusic} type="audio/mpeg" />
           Tu navegador no soporta la reproducción de música.
         </audio>
-        <div className="bg-gray-300 py-1">
+        <div className="bg-gray-300">
         <Banner />
         <Tarjeta />
         </div>
         
         <section id="alianza" className="">
-          <div className="mx-auto">
+          <div className="mx-auto mt-5">
             <h2 className="text-3xl font-semibold text-center font-serif">
               Sobre Nosotros
             </h2>

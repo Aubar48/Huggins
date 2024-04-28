@@ -2,21 +2,21 @@
 
 const Tarjeta3 = ({ imagen, clan, lider, historia }) => {
   return (
-    <div className="w-full sm:w-1/3 p-4">
-      <div className="w-full sm:w-1/3 md:w-2/3 lg:w-3/4 mx-auto rounded-lg shadow-md overflow-hidden">
+    <div className="max-sm:w-full md:w-2/4 lg:w-2/4 xl:w-1/3  p-2">
+      <div className="sm:w-full lg:w-3/4 mx-auto rounded-lg shadow-xl shadow-black ">
         <img
           src={imagen}
           alt={`${clan} ${lider}`}
           className="w-full h-48 object-cover object-center"
         />
-        <div className="p-4">
+        <div className="p-4 flex flex-col">
           <h2 className="sm:text-sm lg:text-4x1 font-medium font-serif">
             {clan}
           </h2>
           <h2 className="sm:text-sm lg:text-4xl font-medium font-serif">
             {lider}
           </h2>
-          <p>{historia}</p>
+          <p className="text-sm lg:text-base overflow-hidden h-72">{historia}</p>
         </div>
       </div>
     </div>
