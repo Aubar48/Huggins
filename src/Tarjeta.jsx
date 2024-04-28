@@ -45,7 +45,7 @@ const App = () => {
         clan="Muninn"
         lider="T1t1d0t"
         miembros="50/50"
-        clasificacion="7"
+        clasificacion="5"
       />
       <Tarjeta
         imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
@@ -73,7 +73,7 @@ const App = () => {
         clan="Qi"
         lider="Soster"
         miembros="49/50"
-        clasificacion="27"
+        clasificacion="26"
       />
     </div>
   );
