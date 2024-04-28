@@ -16,7 +16,9 @@ const Tarjeta3 = ({ imagen, clan, lider, historia }) => {
           <h2 className="sm:text-sm lg:text-4xl font-medium font-serif">
             {lider}
           </h2>
-          <p className="text-sm lg:text-base overflow-hidden h-72">{historia}</p>
+          <p className="text-sm lg:text-base overflow-hidden h-72">
+            {historia}
+          </p>
         </div>
       </div>
     </div>
@@ -41,6 +43,18 @@ const App = () => {
 
       <Tarjeta3
         imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
+        clan="Huginn"
+        lider="LCRCaraza"
+        historia="En los bulliciosos mercados de la ciudad, Huginn emerge como un clan de líderes activos y comerciantes, cuyos vínculos se entrelazan en la red de intercambios y alianzas. En su centro, LCRCaraza lidera con diligencia y visión, navegando entre las transacciones con destreza y perspicacia. Entre el trajín de la actividad comercial y la ambición desenfrenada, Huginn y su líder trazan su camino, estableciendo un legado de prosperidad e influencia en los corazones de la ciudad."
+      />
+      <Tarjeta3
+        imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
+        clan="Muninn"
+        lider="T1t1d0t"
+        historia="En las sombras de la ciudad, Muninn, una comunidad de Night Crow, se alza como una red clandestina, tejida con secretos y lealtades indomables. En su corazón, T1t1d0t lidera con astucia y determinación, guiando a sus seguidores con la oscuridad como su aliada. Entre callejones oscuros y miradas furtivas, Muninn y su líder desafían los límites de lo posible, forjando un legado de intriga y poder en las noches eternas."
+      />
+      <Tarjeta3
+        imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
         clan="Depredadores"
         lider="Fury90"
         miembros="47/50"
@@ -54,19 +68,6 @@ const App = () => {
         miembros="49/50"
         clasificacion="9"
         historia="En los callejones oscuros y entre las sombras de la noche, el clan de los BlackSail2 se alza como maestros del engaño y las artes mortales, sus miembros tejiendo hilos de intriga y desafío. En el epicentro de esta oscura hermandad, Zechi lidera con astucia y determinación, dirigiendo a sus seguidores con maestría en el arte del sigilo y la violencia. Entre los callejones más oscuros y los susurros de traición, los Templarios y su líder avanzan, esculpiendo un legado de misterio y temor en las profundidades de la noche."
-        />
-
-      <Tarjeta3
-        imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
-        clan="Huginn"
-        lider="LCRCaraza"
-        historia="En los bulliciosos mercados de la ciudad, Huginn emerge como un clan de líderes activos y comerciantes, cuyos vínculos se entrelazan en la red de intercambios y alianzas. En su centro, LCRCaraza lidera con diligencia y visión, navegando entre las transacciones con destreza y perspicacia. Entre el trajín de la actividad comercial y la ambición desenfrenada, Huginn y su líder trazan su camino, estableciendo un legado de prosperidad e influencia en los corazones de la ciudad."
-      />
-      <Tarjeta3
-        imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1InjisA-spdMOVUDZtciJlpRgBUaTqwOGrpYGXoXcw&s"
-        clan="Muninn"
-        lider="T1t1d0t"
-        historia="En las sombras de la ciudad, Muninn, una comunidad de Night Crow, se alza como una red clandestina, tejida con secretos y lealtades indomables. En su corazón, T1t1d0t lidera con astucia y determinación, guiando a sus seguidores con la oscuridad como su aliada. Entre callejones oscuros y miradas furtivas, Muninn y su líder desafían los límites de lo posible, forjando un legado de intriga y poder en las noches eternas."
       />
     </div>
   );
