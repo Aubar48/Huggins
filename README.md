@@ -31,3 +31,5 @@ npm install
 ```
 
 ### The server will stand up on port 5173. You can access the application in your web browser using the following URL: [http://localhost:5173/](http://localhost:5173)
+
+### https://latincrowshuginn.netlify.app/ Podes visualizar la landing page!
